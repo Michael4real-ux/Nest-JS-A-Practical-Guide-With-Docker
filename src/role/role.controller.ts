@@ -8,7 +8,6 @@ import {
   Put,
 } from '@nestjs/common';
 import { RoleCreateDto } from './models/role-create.dto';
-// import { RoleUpdateDto } from './models/role-update.dto';
 import { Role } from './models/role.entity';
 import { RoleService } from './role.service';
 
