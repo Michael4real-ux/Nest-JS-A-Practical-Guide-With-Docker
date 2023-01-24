@@ -6,7 +6,7 @@ import { CommonModule } from './common/common.module';
 import { RoleModule } from './role/role.module';
 import { PermissionModule } from './permission/permission.module';
 import { ProductModule } from './product/product.module';
-import { UploadController } from './upload/upload.controller';
+import { OrderModule } from './order/order.module';
 
 @Module({
   imports: [
@@ -26,7 +26,7 @@ import { UploadController } from './upload/upload.controller';
     RoleModule,
     PermissionModule,
     ProductModule,
+    OrderModule,
   ],
-  controllers: [UploadController],
 })
 export class AppModule {}
